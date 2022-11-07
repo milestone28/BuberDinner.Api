@@ -11,7 +11,6 @@ namespace BuberDinner.Application.Services.Authentication
         string FirstName,
         string LastName,
         string Email,
-        string Token,
-        int Result
+        string Token
         );
 }

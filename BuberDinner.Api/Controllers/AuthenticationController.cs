@@ -29,8 +29,7 @@ namespace BuberDinner.Api.Controllers
                 authResult.FirstName,
                 authResult.LastName,
                 authResult.Email,
-                authResult.Token,
-                authResult.Result
+                authResult.Token
                 );
 
             return Ok(res);
@@ -48,8 +47,7 @@ namespace BuberDinner.Api.Controllers
                 authResult.FirstName,
                 authResult.LastName,
                 authResult.Email,
-                authResult.Token,
-                authResult.Result
+                authResult.Token
                 );
             return Ok(res);
         }
